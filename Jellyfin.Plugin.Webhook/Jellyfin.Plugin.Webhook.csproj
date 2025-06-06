@@ -11,7 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="C:\Users\mason\Documents\Projects\jellyfin\MediaBrowser.Controller\MediaBrowser.Controller.csproj" PrivateAssets="All" Version="10.*-*" />
+      <ProjectReference Include="..\..\jellyfin\MediaBrowser.Controller\MediaBrowser.Controller.csproj" PrivateAssets="All" Version="10.*-*" />
       <PackageReference Include="MailKit" Version="4.8.0" />
       <PackageReference Include="Handlebars.Net" Version="2.1.6" />
       <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
